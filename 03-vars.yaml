@@ -6,6 +6,6 @@
     DURATION: 10hrs
     TRAINER: siva
   tasks:
-  - name: print the course info
-    ansible.builtin.debug:
-      msg: "course name is : {{ COURSE }}, duration is: {{ DURATION }}, trainer is: {{ TRAINER }}"
+  -  name: print the course information
+     ansible.builtin.debug:
+        msg: "course name is : {{ COURSE }}, duration is: {{ DURATION }}, trainer is: {{ TRAINER }}"
